@@ -1,0 +1,36 @@
+body {
+    font-family: Helvetica, sans-serif;
+    padding: 50px;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0,0,0);
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    color: rgb(0, 153, 0);
+}
+
+li {
+    padding-left: 40px;
+}
+
+
+header h1 {
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+p {
+    padding-bottom: 15px;
+}

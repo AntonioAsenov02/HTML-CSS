@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-color: #eee;
+    font-family: Helvetica, sans-serif;
+    padding: 110px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header, 
+main,
+aside,
+footer {
+    box-shadow: 1px 1px 11px -2px black;
+    background-color: #fff;
+    border-radius: 8px;
+    color: #000;
+}
+
+main,
+aside {
+    margin: 20px 0px;
+    padding: 10px 10px 200px 10px;
+}
+
+main {
+    margin-right: 20px;
+    flex-grow: 3;
+}
+
+aside {
+    flex-grow: 1;
+}
+
+header {
+    padding: 10px 10px 90px 10px;
+}
+
+footer {
+    padding: 10px 10px 60px 10px;
+}
+
+header,
+footer {
+    width: 100%;
+}

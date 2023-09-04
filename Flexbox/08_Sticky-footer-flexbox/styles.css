@@ -1,0 +1,46 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    border-bottom: 3px solid rgb(0,0,0);
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 100%;
+}
+    
+
+header h1 {
+    padding-bottom: 20px;
+    font-size: 45px;
+    padding-left: 20px;
+}
+
+h2 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+p {
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: rgb(102, 102, 102);
+    width: 100%;
+    position: sticky;
+    color: rgb(255, 255, 255);
+}
+
+footer p {
+    padding-left: 20px;
+}

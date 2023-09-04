@@ -1,0 +1,50 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    margin: 60px;
+    width: 35%;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px 1px rgb(138,138, 138);
+    max-width: 400px;
+}
+
+.image {
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.content {
+    margin: 20px;
+    align-items: end;
+    display: grid;
+    justify-items: end;
+}
+
+button {
+    background-color: rgb(0, 153, 0);
+    color: white;
+    border-radius: 2px;
+    padding: 7px 17px;
+    margin: 20px;
+}
+
+p {
+    margin: 0px;
+}
+
+h1 {
+
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+    display: grid;
+    justify-self: start;
+}

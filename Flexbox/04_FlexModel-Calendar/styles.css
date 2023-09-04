@@ -1,0 +1,39 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+div {
+    display: flex;
+    max-width: 65vw;
+    margin: 80px auto;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notes {
+    flex-direction: column;
+}
+
+ span {
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px 15px 80px 15px;
+}
+
+.workweek,
+.weekend {
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+.reminders,
+.specialnotes {
+    height: 50%;
+}
+
+.day {
+    flex-grow: 1;
+}

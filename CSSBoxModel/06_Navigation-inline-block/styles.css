@@ -1,0 +1,41 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    
+    margin: 50px 40px;
+}
+
+header {
+    border-bottom: 2px solid black;    
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+nav {
+    font-size: small;
+    margin-left: 30px;
+}
+
+a {
+    
+    margin: 10px;
+}
+
+header nav, h1, ul, li, a {
+    display: inline-block;
+}
+
+main h1 {
+    line-height: 20px;
+}
+
+main h1 {
+    font-size: 25px;
+    font-weight: normal;
+}
